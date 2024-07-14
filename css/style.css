@@ -46,14 +46,6 @@ a{
   font-style: italic;
 }
 
-hr {
-  border: 5px solid lightgreen;
-  border-radius: 3px;
-  width: 80%;
-  text-align: left;
-  margin-left: 20px;
-}
-
 figure {
   width: 300px;
 }
