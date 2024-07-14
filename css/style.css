@@ -1,56 +1,100 @@
-body {
-  background: #dcd0ac;
-  color: #000;
-  font-family: "Josefin Sans", sans-serif;
+html {
+  height: 100%;
+  width: 100%;
 }
-/*  */
+
 * {
-  box-sizing: border-box;
+  padding-left: 20px;
+  text-align: left;
 }
 
-.wrapper>div {
-  border-radius: 5px;
-  padding: 1em;
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: "Century Gothic";
+  background: linear-gradient(-45deg, #d9d9d9, #fff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
 }
 
-.wrapper {
-  display: grid;
-  min-height: 800px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px;
+table , td, th {
+  margin: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  table-layout: fixed; 
+  width: 90%;
+  vertical-align: top;
 }
 
-.wrapper>div {
-  flex: 1;
-}
-
-h1,
-h2,
 h3 {
-  font-family: "Righteous", sans-serif;
-  color: #6c3333;
-  text-shadow: 3px 3px 3px #7d5d40;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Arial Narrow";
+  font-size: 36px;
+  font-weight: bold;
 }
 
-p {
-  color:black;
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 0.8;
 }
 
-li, a {
-  color: #633f1d;
+a{
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-style: italic;
 }
 
-legend, fieldset {
-  color:#633f1d;
+hr {
+  border: 5px solid lightgreen;
+  border-radius: 3px;
+  width: 80%;
+  text-align: left;
+  margin-left: 20px;
 }
 
 figure {
-  color:#546642;
+  width: 300px;
 }
 
-.rate {
-  color:#6c3333;
-  text-shadow: 3px 3px 3px #7d5d40;
+.header {
+  color: #fff;
+  background: lightgreen;
+  border-radius: 5px;
+  width: 50%;
+  padding: 5px 10px 10px;
+  margin: 10px 20px
+}
+
+.byline {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  text-transform: uppercase;
+  max-width: 550px;
+}
+
+.conversion {
+  border: 3px solid;
+  border-radius: 5px;
+  width: 280px;
+  padding: 0px 20px 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.conversion input {
+  width: 100px;
+}
+
+.subhead {
+  font-family: "Arial";
+  font-size: 28px;
+  color: darkgreen
+}
+
+.directions, .ingredients {
+  max-width: 700px;
+  line-height: 1.6;
 }
