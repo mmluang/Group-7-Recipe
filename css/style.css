@@ -1,0 +1,19 @@
+body {
+  background: #dcd0ac;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Righteous", sans-serif;
+  color: #6c3333;
+  text-shadow: 3px 3px 3px #7d5d40;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color:black;
+}
