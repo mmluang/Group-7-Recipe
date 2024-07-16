@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+[class *="col"] {
+  float: left;
+  /*padding: 15px;*/
+}
+
+body {
+font-family: 'Lucida Sans';Verdana, sans-serif;
+background-color: saddlebrown;
+color: #ffe32e;
+}
+
+.row:after {
+  content: : "";
+  clear: both;
+  display: block;
+}
+
+h2 {
+  color: #ffe32e;
+}
+
+h3 {
+  color: steelblue;
+}
+
+.wrappersaverateprintshare {
+  width : 125px;
+  border-radius: 10px;
+  background-color: maroon;
+  padding: 1em;
+  }
+
+.whattodo {
+  background-color: white;
+  width: 1000px;
+  height: 100px;
+  border: 5px solid yellowgreen;  /*turn off borders = 5 orig*/
+  padding: 20px;
+  margin: 5px;
+}
+
+.wrappereasyintermediatehard {
+  width : 400px;
+  padding: 1em;
+}
+
+.wrappereasyintermediatehard {
+  display: flex;
+  /*float:left;*/
+}
